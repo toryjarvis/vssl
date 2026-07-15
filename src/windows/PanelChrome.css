@@ -1,0 +1,45 @@
+.panel {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--vssl-color-panel);
+    color: var(--vssl-color-text);
+    font-family: var(--vssl-font);
+    border-radius: var(--vssl-border-radius);
+    overflow: hidden;
+}
+
+.panel-titlebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 8px;
+    background-color: var(--vssl-color-background);
+    user-select: none;
+}
+
+.panel-title {
+    font-size: 0.85rem;
+    text-transform: lowercase;
+}
+
+.panel-controls {
+    display: flex;
+    gap: 4px;
+}
+
+.panel-controls button {
+    background: none;
+    border: 1px solid var(--vssl-color-accent);
+    color: var(--vssl-color-text);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    line-height: 1;
+}
+
+.panel-content {
+    flex: 1;
+    padding: 12px;
+    overflow: auto;
+}

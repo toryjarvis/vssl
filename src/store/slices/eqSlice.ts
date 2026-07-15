@@ -6,7 +6,7 @@ export interface EQSlice {
     setEQ: (partial: Partial<EQState>) => void;
 }
 
-const initialEQState: EQState = {
+export const initialEQState: EQState = {
     enabled: true,
     preamp: 0,
     bands: new Array(10).fill(0),

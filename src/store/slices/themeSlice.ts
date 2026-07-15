@@ -7,7 +7,7 @@ export interface ThemeSlice {
 }
 
 // REMEMBER - TEMPORARY
-const initialThemeState: Theme = {
+export const initialThemeState: Theme = {
     id: "default-dark",
     name: "Default Dark",
     colors: {

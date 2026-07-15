@@ -8,6 +8,12 @@
     "opener:default",
     "dialog:default",
     "core:event:default",
-    "core:webview:allow-create-webview-window"
+    "core:webview:allow-create-webview-window",
+    "core:window:allow-hide",
+    "core:window:allow-show",
+    "core:window:allow-set-focus",
+    "core:window:allow-close",
+    "core:window:allow-minimize"
+
   ]
 }
